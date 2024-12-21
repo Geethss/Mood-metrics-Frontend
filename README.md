@@ -1,3 +1,39 @@
+# Mood Metrics Frontend
+
+This is the React-based frontend for the **Mood Metrics** application, designed to allow users to upload CSV files for sentiment analysis and visualize results in an aesthetic and user-friendly interface.
+
+---
+
+### **Features**
+- Upload CSV files for sentiment analysis.
+- Interactive pie and bar charts to display sentiment distribution.
+- A responsive and visually appealing design.
+- Real-time integration with the backend API for seamless functionality.
+
+---
+
+### **Live Demo**
+[**Live Frontend on Vercel**](https://mood-metrics-frontend.vercel.app)
+
+---
+
+### **Technologies Used**
+- **React**
+- **Axios**
+- **Recharts**
+
+---
+
+### **Installation and Setup**
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/Mood-metrics-Frontend.git
+2. Navigate to the project directory:
+   cd Mood-metrics-Frontend
+3. Install dependencies
+4. Run using the command: npm start
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
