@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import axios from "axios";
 import SentimentChart from "./SentimentChart";
+import config from "../config";
+
 
 const FileUpload = () => {
     const [file, setFile] = useState(null);
@@ -22,7 +24,7 @@ const FileUpload = () => {
         formData.append("file", file);
 
         try {
-            const response = await axios.post("http://127.0.0.1:8000/analyze", formData, {
+            const response = await axios.post(`https://mood-metrics-backend.onrender.com/analyze`, formData, {
                 headers: {
                     "Content-Type": "multipart/form-data",
                 },
